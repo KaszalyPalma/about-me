@@ -1,0 +1,92 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 180px;
+    max-height: 180px;
+    border-radius: 50%;
+    margin-top: ;
+    margin-bottom: 10px;
+    border: 1px solid rgb(19, 72, 1);
+}
+
+body {
+    background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#details {
+    text-align: center;
+    margin: 30px;
+    font-size: 120%;
+}
+
+#about-me {
+    text-align: justify;
+    margin: 15px;
+    border-top: 1px solid;
+    line-height: 1.5;
+}
+
+#contacts {
+    text-align: center;
+    margin: 15px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+li {
+    display: inline;
+    margin: 3px;
+  }
+
+#main {
+    background-color: hsla(0, 0%, 100%, 0.7);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .8)  1px 10px 80px;
+    margin: 25px;
+    max-width: 600px;
+  }
+
+img:hover {
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out;
+    filter: brightness(110%);
+  }
+
+#location {
+    font-size: 90%;
+  }
+
+a {
+     color: blue;
+  }
+
+a:visited {
+  color: blue;
+}
+
+i:hover {
+    color:rgb(19, 72, 1);
+
+  }
